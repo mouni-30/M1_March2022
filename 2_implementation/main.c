@@ -3,7 +3,7 @@
 int subtraction();
 int multiplication();
 int division();
-int modulus();
+int modules();
 int power();
 int factorial(); // it is header file, conatins all function
 int main() {
@@ -48,7 +48,7 @@ int main() {
     case 5: 
         printf("Enter two number");
         scanf("%d %d",&n1,&n2);
-       ans= modulus(n1,n2);  // calling madules function
+       ans= modules(n1,n2);  // calling modules function
        printf("answer=%d",ans);
         break;  
     case 6: 
