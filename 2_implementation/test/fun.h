@@ -7,7 +7,7 @@ int addition();
 int subtraction();
 int multiplication();
 int division();
-int modulus();
+int modules();
 int power();
 int factorial();
 int main();
